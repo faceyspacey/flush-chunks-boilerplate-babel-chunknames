@@ -3,7 +3,7 @@
 This is a boilerplate example for how to use [webpack-flush-chunks](https://github.com/faceyspacey/webpack-flush-chunks)
 in conjunction with [react-universal-component](https://github.com/faceyspacey/react-universal-component) and [extract-css-chunks-webpack-plugin](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin). 
 
-It's specifically for when you're using **Babel** with *React Universal Component's* **`flushChunkNames()`** and *Webpack Flush Chunks's* `chunkNames` option.
+It's specifically for when you're using **Babel** with *React Universal Component's* **`flushChunkNames()`** and *Webpack Flush Chunks's* **`chunkNames`** option.
 
 ## Installation
 
@@ -68,5 +68,5 @@ If you have a solution to reconnecting the client to HMR after `babel-watch` rel
 
 
 ## Contributing
-We use [commitizen](https://github.com/commitizen/cz-cli), so run `npm run commit` to make commits. A command-line form will appear, requiring you answer a few questions to automatically produce a nicely formatted commit.
+We use [commitizen](https://github.com/commitizen/cz-cli), so run `npm run cm` to make commits. A command-line form will appear, requiring you answer a few questions to automatically produce a nicely formatted commit.
 
