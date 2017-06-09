@@ -8,7 +8,7 @@
   "scripts": {
     "start": "npm run clean && NODE_ENV=development babel-watch -x src server/index.js",
     "start:prod": "npm run build && NODE_ENV=production babel-watch -x src server/index.js",
-    "build": "rimraf buildServer && webpack --progress -p --config webpack/prod.js",
+    "build": "rimraf buildServer && NODE_ENV=production webpack --progress -p --config webpack/prod.js",
     "clean": "rimraf build",
     "precommit": "lint-staged --verbose",
     "cm": "git-cz",
